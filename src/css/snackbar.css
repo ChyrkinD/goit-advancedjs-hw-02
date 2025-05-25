@@ -1,0 +1,35 @@
+.form {
+  width: 300px;
+}
+
+.form input[name='delay'] {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.form fieldset {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.form button {
+  width: 100%;
+  padding: 4px 8px;
+  font-size: inherit;
+  color: inherit;
+}
