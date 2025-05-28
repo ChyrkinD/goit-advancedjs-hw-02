@@ -27,7 +27,7 @@ flatpickr(refs.inputDate, {
       iziToast.show({
         message: '❌ Please choose a date in the future',
         color: 'red',
-        messageColor: 'red',
+        messageColor: 'white',
         position: 'topRight',
         timeout: 4000,
         progressBar: false,
