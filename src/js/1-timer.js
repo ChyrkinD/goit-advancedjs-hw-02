@@ -39,10 +39,12 @@ flatpickr(refs.inputDate, {
 
 const start = () => {
   intervalId = setInterval(() => {
+    refs.btnStart.disabled = true;
     const diff = userSelectedDate - Date.now();
 
     if (diff < 0) {
       stop();
+      refs.btnStart.disabled = false;
       return;
     }
 
